@@ -47,6 +47,7 @@ public class MyDatabaseManager {
         }catch(SQLException ex){
             Logger.getLogger(MyDatabaseManager.class.getName()).log(Level.SEVERE, null, ex);
         }
+        return rs;
     }
     
 //    public void doUpdateQuery() throws SQLExeption{
